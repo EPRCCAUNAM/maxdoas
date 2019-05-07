@@ -33,7 +33,7 @@ for dircomp in range(0,len(LDD)):
     os.makedirs(carpeta1)
     #AAMMDD_CLAVE carpeta con secuencias sin mediciones
     os.makedirs(carpeta1+"_nondata")
-    #SAAMMDD_CLAVE secuencias con angulo cenital fuera del intervalo (-5,5)
+    #AAMMDD_CLAVE secuencias con angulo cenital fuera del intervalo (-5,5)
     os.makedirs(carpeta1+"_nonzenith")
 
     #En este ciclo se accede a cada una de las carpetas de las secuencias
